@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.slide-wrapper {
+    overflow: hidden;
+}
+.slide {
+    display: flex;
+}
+
+.slide li {
+    width: 80vw;
+    /*n diminui muito as imagens, nao estoura o container*/
+    flex-shrink: 0;
+    max-width: 800px;
+    margin: 0 20px;
+}
+
+.slide {
+    /*navegação pelo slide*/
+    transform: translate3d(0px, 0px, 0px);
+}
